@@ -1,0 +1,44 @@
+# Build directories
+build/
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+
+# CMake and Ninja artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_log
+.ninja_deps
+
+# Zephyr specific
+zephyr/.config
+zephyr/include/generated/
+zephyr/zephyr.dts
+zephyr/zephyr.dtsi
+zephyr/zephyr.elf
+zephyr/zephyr.hex
+zephyr/zephyr.bin
+
+# Logs and temporary files
+*.log
+*.swp
+*.swo
+*.tmp
+
+# Python virtual environments
+.venv/
+__pycache__/
+*.pyc
+
+# Tool-specific
+tools/*.tmp
+tools/*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
